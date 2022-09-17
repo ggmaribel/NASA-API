@@ -36,13 +36,6 @@ input {
   border: none;
 }
 
-<<<<<<< HEAD
-=======
-input[type="date"]::-webkit-calendar-picker-indicator{
-  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
-}
-
->>>>>>> origin/main
 button {
   background: rgba(255, 255, 255);
   color: rgb(10, 10, 10);
@@ -94,10 +87,7 @@ h2 {
 img {
   margin-top: -30px;
   width: 55%;
-<<<<<<< HEAD
-  border: none;
-=======
->>>>>>> origin/main
+  border: 1px solid transparent;
 }
 
 iframe {
