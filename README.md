@@ -2,7 +2,9 @@
 
 A simple website using the NASA API 'Astronomy Picture of the Day'.
 
+<img src="images/website.png" height="400" >
 
+Website: <a href="https://astronomy-photo.netlify.app" targer="_blank">Astronomy Picture of the Day</a>
 --
 
 # Features
