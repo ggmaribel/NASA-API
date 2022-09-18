@@ -3,7 +3,7 @@
 */
 
 body {
-  background: rgb(10, 10, 10);
+  background: url(../images/bg.jpeg);
   color: rgb(255, 255, 255);
   font-family: 'Space Grotesk', sans-serif;
 }
@@ -30,7 +30,7 @@ body {
 
 input {
   width: 180px;
-  background: rgb(10, 10, 10);
+  background: rgba(210, 210, 210, 0.25);
   color: rgba(255, 255, 255);
   text-align: left;
   border: none;
@@ -69,7 +69,7 @@ button:hover {
 h2 {
   margin-right: 3rem;
   color: rgba(255, 255, 255);
-  background: rgb(10, 10, 10);
+  background: transparent;
   font-size: 3rem;
   text-align:right;
 }
@@ -77,6 +77,7 @@ h2 {
 .info {
   width: 100%;
   color: rgba(255, 255, 255, 0.783);
+  border: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -85,17 +86,19 @@ h2 {
 }
 
 img {
+  border: none;
   margin-top: -30px;
   width: 55%;
-  border: 1px solid transparent;
 }
 
 iframe {
   width: 50%;
+  border: 1px solid transparent;
 }
 
 .text {
   width: 30%;
+  border: 1px solid transparent;
   text-align: justify;
   margin-top: 50px;
   margin-right: 50px;
